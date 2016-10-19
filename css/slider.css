@@ -1,0 +1,21 @@
+#slider, #slider img {
+  width: 890px;
+  height: 591px;
+}
+
+#slider {
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+#slider img {
+  display: none;
+}
+
+.navigation_button {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  margin-top: 20px;
+  color: black;
+}
