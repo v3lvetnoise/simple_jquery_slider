@@ -8,6 +8,13 @@ var loop;
 $(document).ready(function(){
   $("#slider > img#image_1").fadeIn(300);
   startSlider();
+
+  /* Stop slider when the mouse pointer hovers over it */
+  $("#slider > img").hover(function() {
+    stopSlider();
+  }, function() {
+    startSlider();
+  });
 });
 
 function changeSlides() {

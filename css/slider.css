@@ -30,4 +30,6 @@ a.left {
 
 a.right {
   float: right;
+  width: 56px;
+  text-align: center;
 }
